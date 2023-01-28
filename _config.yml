@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://ggggraceful-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: ''
 
 # boolean type, the global switch for ToC in posts.
 toc: true
