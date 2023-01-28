@@ -14,23 +14,22 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy                          # the main title
+title: ggggraceful                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: ggggraceful's dev-log   # it will display as the sub-title
 
-description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+description: ggggraceful's dev-log                    # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://ggggraceful.github.io'
 
 github:
-  username: github_username             # change to your github username
+  username: ggggraceful             # change to your github username
 
 twitter:
   username: twitter_username            # change to your twitter username
@@ -38,12 +37,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: ggggraceful
+  email: ggggraceful00@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://github.com/ggggraceful       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -78,7 +77,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://chirpy-img.netlify.app'
+img_cdn: 'https://ggggraceful-img.netlify.app'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: '/commons/avatar.jpg'
@@ -106,7 +105,7 @@ comments:
     lang:              # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# Self-hosted static assets, optional › https://github.com/cotes2020/ggggraceful-static-assets
 assets:
   self_host:
     enabled:      # boolean, keep empty means false
