@@ -8,7 +8,7 @@ tags: [STUDY]
 
 <br/>
 
-<span style="font-size: 12px; color:  #cbce91"> 공부한 내용을 여러글과 책 읽은 내용을 바탕으로 정리하고 있습니다. 참고링크는 맨 아래 있습니다.</span>  
+<span style="font-size: 12px; color:  #cbce91"> 공부한 내용을 여러글과 책 읽은 내용을 바탕으로 정리하고 있습니다. 참고는 맨 아래 있습니다.</span>  
 <span style="font-size: 12px; color:  #cbce91"> 좋은 글로 저의 공부에 도움을 주시는 분들께 감사드립니다. </span>
 
 <br/>
@@ -89,12 +89,12 @@ dirty checking
 <br/>
 <br/>
 
-<span style="font-size: 12px; color:  #cbce91"> 공부한 내용을 여러글과 책 읽은 내용을 바탕으로 정리하고 있습니다. 참고링크는 맨 아래 있습니다.</span>  
+<span style="font-size: 12px; color:  #cbce91"> 공부한 내용을 여러글과 책 읽은 내용을 바탕으로 정리하고 있습니다. 참고는 맨 아래 있습니다.</span>  
 <span style="font-size: 12px; color:  #cbce91"> 좋은 글로 저의 공부에 도움을 주시는 분들께 감사드립니다. </span>
 
 ---
 
-(참고링크)
+(참고)
 
 - [JPA 더티 체킹(Dirty Checking)이란?](https://interconnection.tistory.com/121)
 - [[Spring JPA] Dirty Checking(더티체킹)이란?](https://frogand.tistory.com/175)

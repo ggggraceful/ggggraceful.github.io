@@ -44,7 +44,7 @@ tags: [STUDY]
 라이브락(Livelock)
 ---
 
-(참고링크)
+(참고)
 
 - [동시성(Concurrency) vs 병렬성(Parallelism)](https://seamless.tistory.com/42)
 - [Concurrency vs Parallelism](https://www.codeproject.com/Articles/1267757/Concurrency-vs-Parallelism)

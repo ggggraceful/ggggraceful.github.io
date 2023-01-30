@@ -283,7 +283,7 @@ Reflection은 프로그래머가 데이터를 보여주고, 다른 포맷의 데
 
 ---
 
-(참고링크)
+(참고)
 - [스프링(Spring)에서 자주 사용하는 Annotation 개념 및 예제 정리](https://melonicedlatte.com/2021/07/18/182600.html)
 - [@ Annotation이란?](https://velog.io/@ruinak_4127/Annotation%EC%9D%B4%EB%9E%80)
 - [[Spring] @Component와 @Configuration](https://velog.io/@albaneo0724/Spring-Component%EC%99%80-Configuration%EC%9D%98-%EC%B0%A8%EC%9D%B4)

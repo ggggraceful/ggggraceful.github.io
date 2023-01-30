@@ -56,7 +56,7 @@ tags: [STUDY]
 
 ---
 
-(참고링크)
+(참고)
 
 - [..](https://yang-droid.tistory.com/48)
 - [신입 개발자 기술면접 질문 정리 - 자바](https://dev-coco.tistory.com/153)

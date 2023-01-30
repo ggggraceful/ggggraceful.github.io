@@ -21,7 +21,7 @@ tags: [STUDY]
 
 ---
 
-(참고링크)
+(참고)
 
 - [](https://brunch.co.kr/@jinyoungchoi95/1)
 - [쿠키(Cookie)와 세션(Session) & 로그인 동작 방법](https://cjh5414.github.io/cookie-and-session/)

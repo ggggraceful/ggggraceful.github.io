@@ -124,7 +124,7 @@ wireshark로 덤프를 뜬 내용이다.
 
 ---
 
-(참고링크)
+(참고)
 
 - [..](https://mindnet.tistory.com/entry/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-22%ED%8E%B8-TCP-3-WayHandshake-4-WayHandshake
   )

@@ -145,7 +145,7 @@ O(n)
 
 ---
 
-(참고링크)
+(참고)
 
 - [Big O 시간복잡도에 대해서 파악하자!](https://velog.io/@zion9948/Big-O-%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%ED%8C%8C%EC%95%85%ED%95%98%EC%9E%90)
 - [시간 복잡도와 공간 복잡도 (Time Complexity and Space Complexity)](https://lgphone.tistory.com/46)

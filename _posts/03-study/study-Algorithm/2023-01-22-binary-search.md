@@ -103,7 +103,7 @@ return –1; // 검색 실패!
 
 ---
 
-(참고링크)
+(참고)
 
 - [[Algorithm] 이진 탐색 (이분 탐색, Binary Search) 코드와 시간 복잡도](https://kangworld.tistory.com/65)
 

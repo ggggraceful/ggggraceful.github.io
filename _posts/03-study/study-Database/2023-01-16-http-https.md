@@ -201,7 +201,7 @@ HTTPS는 웹에서 보안을 적용하기 위한 가장 기본적인 단계이�
 
 ---
 
-(참고링크)  
+(참고)  
 
 - [[Web] HTTP와 HTTPS의 개념 및 차이점](https://mangkyu.tistory.com/98)
 - [HTTP HTTPS 차이: 당신의 웹 사이트는 안전한가요?](https://www.ascentkorea.com/difference-between-http-and-https/)

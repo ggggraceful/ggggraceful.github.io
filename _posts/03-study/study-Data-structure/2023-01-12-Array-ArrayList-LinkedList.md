@@ -586,7 +586,7 @@ System.out.println(Arrays.toString(b)); // [1, 2, 3, 1111]
 
 이렇게 for문을 이용해 복사를 하는 방법도 있지만 java에서 지원하는 다양한 메소드(method)들을 활용하면 더 편하게 깊은 복사를 할 수 있다.
 
-- [다양한 복사 메서드 참고링크](https://seoyoung2.github.io/java/2021/01/21/java-copy.html)
+- [다양한 복사 메서드 참고](https://seoyoung2.github.io/java/2021/01/21/java-copy.html)
 
 
 
@@ -606,7 +606,7 @@ System.out.println(Arrays.toString(b)); // [1, 2, 3, 1111]
 
 ---
 
-( 참고링크 & 관련내용 )
+( 참고 & 관련내용 )
 
 - [배열과 연결리스트 (Array & LinkedList)](https://hongcoding.tistory.com/74)
 - [[자료구조] 배열 Array, 배열 리스트 ArrayList, 연결 리스트 LinkedList](https://velog.io/@nnnyeong/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0-%EB%B0%B0%EC%97%B4-Array-%EB%B0%B0%EC%97%B4-%EB%A6%AC%EC%8A%A4%ED%8A%B8-ArrayList-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8-LinkedList)

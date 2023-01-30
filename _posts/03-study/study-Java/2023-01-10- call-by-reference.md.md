@@ -97,7 +97,7 @@ reference type(참조 자료형)을 넘길 시에는
 
 ---
 
-(참고링크)
+(참고)
 
 - [인수 전달 방법](http://www.tcpschool.com/c/c_pointer_callBy)
 

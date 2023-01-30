@@ -233,7 +233,7 @@ Normalization
 
 ---
 
-(참고링크)
+(참고)
 
 - [데이터베이스 정규화(Normalization)란](https://hongcoding.tistory.com/147)
 - [정규화](https://mangkyu.tistory.com/110)

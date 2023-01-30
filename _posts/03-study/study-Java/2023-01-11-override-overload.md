@@ -122,7 +122,7 @@ Override와 Overload는 메소드(기능)의 재정의 또는 확장을 위한 �
 
 ---
 
-(참고링크)
+(참고)
 
 - [[Java]오버로딩 & 오버라이딩(Overloading & Overriding)](https://hyoje420.tistory.com/14)
 

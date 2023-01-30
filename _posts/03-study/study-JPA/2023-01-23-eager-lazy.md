@@ -131,7 +131,7 @@ LAZY LOADING
 
 ---
 
-(참고링크)
+(참고)
 
 - [[JPA] 즉시 로딩과 지연 로딩(FetchType.LAZY or EAGER)](https://ict-nroo.tistory.com/132)
 - [JPA 지연로딩을 사용해야하는 이유, 지연로딩(Lazy)과 즉시로딩(Eager)](https://developer-hm.tistory.com/37)

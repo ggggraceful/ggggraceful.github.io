@@ -222,7 +222,7 @@ bubble sort
 
 ---
 
-(참고링크)
+(참고)
 
 - [Java - 배열 정렬(Sorting) (오름차순, 내림차순)](https://codechacha.com/ko/java-sorting-array/)
 

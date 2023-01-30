@@ -111,7 +111,7 @@ Heap 메모리에 값을 할당하고 해제하는 것은 많은 비용을 요�
 
 ---
 
-(참고링크)
+(참고)
 
 - [[JAVA] JAVA 메모리 이야기 - Stack 과 Heap](https://devkingdom.tistory.com/226)
 - [[Java] 메모리 구조 메소드(Method), 스택(Stack), 힙(Heap) 영역에 대하여](https://coding-factory.tistory.com/830)

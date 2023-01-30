@@ -170,7 +170,7 @@ Phone Galaxy20, IPhone11; // '객체'
 
 ---
 
-(참고링크)
+(참고)
 
 - [클래스의 개념](http://www.tcpschool.com/java/java_class_intro)
 - [[Java] 클래스, 객체, 인스턴스의 차이](https://gmlwjd9405.github.io/2018/09/17/class-object-instance.html)
