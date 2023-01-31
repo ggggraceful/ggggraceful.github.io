@@ -60,16 +60,60 @@ bubble sort
 <br/>
 <br/>
 
-## 버블 정렬 알아보기
-
----
-
-<br/>
-<br/>
-
 ### 버블 정렬 프로그램 만들기
 
 ---
+
+```java
+// 버블 정렬(단순 교환 정렬) (버전 1)
+
+import java.util.Scanner;
+
+class BubbleSort {
+
+	/*
+	버블정렬
+	 */
+	static void bubbleSort(int[] a, int n) {
+		// 숫자는 n개, 패스 횟수는 n-1번
+		// 첫 번째 패스의 비교 횟수는 n - 1, 두 번째 패스의 비교 횟수는 n - 2회 ...
+		// a[i], a[i + 1], …, a[n - 1]
+		for (int i = 0; i < n - 1; i++) // 인덱스 i ~ n-1까지 반복
+			// 패스 : 두개씩 비교해 한줄 통과할 때
+			for (int j = n - 1; j > i; j--) // 맨뒤 인덱스 n-1부터 시작해서 앞으로 2개씩 비교
+				if (a[j - 1] > a[j])
+					swap(a, j - 1, j);
+	}
+
+	/*
+	배열 요소 a[idx1]와 a[idx2]의 값 교환
+	 */
+	static void swap(int[] a, int idx1, int idx2) {
+		int t = a[idx1]; a[idx1] = a[idx2]; a[idx2] = t;
+	}
+
+	public static void main(String[] args) {
+		Scanner stdIn = new Scanner(System.in);
+
+		System.out.println("버블 정렬(버전 1)");
+		System.out.print("요솟수: ");
+		int nx = stdIn.nextInt();
+		int[] x = new int[nx];
+
+		for (int i = 0; i < nx; i++) {
+			System.out.print("x[" + i + "]: ");
+			x[i] = stdIn.nextInt();
+		}
+
+		bubbleSort(x, nx);                // 배열 x를 단순교환정렬
+
+		System.out.println("오름차순으로 정렬했습니다.");
+		for (int i = 0; i < nx; i++)
+			System.out.println("x[" + i + "]=" + x[i]);
+	}
+}
+
+```
 
 <br/>
 <br/>
@@ -205,17 +249,165 @@ bubble sort
 
 # 7. 병합 정렬
 
-...
+---
+
+<br/>
+
+## 7-1. 정렬을 마친 두 배열의 병합 살펴보기
+
+---
+
+<br/>
+<br/>
+
+## 7-2. 병합 정렬 구현하기
+
+---
+
+<br/>
+<br/>
+
+### 병합정렬 알고리즘
+
+---
+
+<br/>
+<br/>
+
+## 7-3. Arrays.sort로 퀵 정렬과 병합 정렬하기
+
+---
+
+<br/>
+<br/>
+
+### 기본 자료형 배열의 정렬(퀵 정렬)
+
+---
+
+<br/>
+<br/>
+
+### 클래스 객체 배열의 정렬(병합정렬)
+
+---
+
+<br/>
+<br/>
+
+### 자연그러운 순서를 갖고 있지 않은 배열의 정렬 만들기
+
+---
+
+<br/>
+<br/>
 
 # 8. 힙 정렬
 
+---
+
+<br/>
+
+## 8-1. 힙이란?
+
+---
+
+<br/>
+<br/>
+
+### 트리
+
+---
+
+<br/>
+<br/>
+
+## 8-2. 힙 정렬 알아보기
+
+---
+
+<br/>
+<br/>
+
+### 루트를 없애고 힙 상태 유지하기
+
+---
+
+<br/>
+<br/>
+
+### 힙 정렬 알고리즘 살펴보기
+
+---
+
+<br/>
+<br/>
+
+## 8-3. 배열을 힙으로 만들기
+
+---
+
+<br/>
+<br/>
+
+### downHeap 메서드
+
+---
+
+<br/>
+<br/>
+
+### heapSort 메서드
+
+---
+
+<br/>
+<br/>
+
+### 힙 정렬의 시간 복잡도
+
+---
+
+<br/>
+<br/>
+
 # 9. 도수 정렬
 
+---
 
+<br/>
 
+## 9-1. 도수정렬 알아보기
 
+---
 
+<br/>
+<br/>
 
+### 1단계: 도수분포표 만들기
+
+---
+
+<br/>
+<br/>
+
+### 2단계: 누적분포표 만들기
+
+---
+
+<br/>
+<br/>
+
+### 3단계: 목표배열 만들기
+
+---
+
+<br/>
+<br/>
+
+### 4단계: 배열 복사하기
+
+---
 
 <br/>
 <br/>
