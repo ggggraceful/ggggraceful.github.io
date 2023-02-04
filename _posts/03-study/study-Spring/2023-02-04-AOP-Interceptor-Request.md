@@ -70,8 +70,8 @@ tags: [STUDY]
 > - Interceptor, Filter : Servlet 단위에서 실행됨
 > - AOP : 메소드 앞에 Proxy패턴의 형태로 실행된다.
 
-
-
+<br/>
+<br/>
 
 # Request가 들어올때 거치는 순서
 
@@ -83,21 +83,20 @@ Filter → Interceptor → AOP → Interceptor → Filter
 
 순으로 실행됩니다.  
 
----
+<br/>
 
-프록시(proxy) 객체
+![스크린샷](https://user-images.githubusercontent.com/109974940/216751327-1817906e-383d-462a-8e2e-5b395509d265.png)
 
-프록시(객체)는
-어떠한 대상의 기본적인 동작(속성, 접근, 할당, 순회, 열거, 함수 호출 등)의 작업을 가로챌 수 있는 객체로,
-(= 특정 객체를 감싸 프로퍼티 읽기, 쓰기와 같은 객체에 가해지는 작업을 중간에서 가로채는 객체)
-가로채진 작업은
-Proxy 자체에서 처리되기도 하고,
-원래 객체가 처리하도록 그대로 전달되기도 합니다.
+<br/>
 
 
+1. 서버를 실행시켜 서블릿이 올라오는 동안에 init이 실행되고, 그 후 doFilter가 실행된다.
 
+2. 컨트롤러에 들어가기 전 preHandler가 실행된다
 
+3. 컨트롤러에서 나와 postHandler, after Completion, doFilter 순으로 진행이 된다.
 
+4. 서블릿 종료 시 destroy가 실행된다.
 
 <br/>
 <br/>

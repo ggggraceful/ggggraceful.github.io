@@ -54,7 +54,7 @@ tags: [STUDY]
 
 3.　필터는  
 　　요청을 처리하고  
-　　```AuthenticationManager```의 구현체 ```ProviderManager`에   
+　　```AuthenticationManager```의 구현체 ```ProviderManager```에   
 　　Authentication과 UsernamePasswordAuthenticationToken을 전달한다.  
 
 ---
@@ -93,8 +93,8 @@ tags: [STUDY]
 10.　Authentication정보는  
 　　SecurityContextHolder 세션 영역에 있는 ```SecurityContext```에  
 　　UsernamePasswordAuthenticationToken(Authentication) 객체를 저장하고,  
-　　Authentication```Success```Handle를 실행.  
-　　(실패시 Authentication```Failure```Handler 실행)
+　　➡️ 성공시 Authentication```Success```Handle를 실행
+　　➡️ 실패시 Authentication```Failure```Handler 실행
 
 <br/>
 <br/>
@@ -128,15 +128,12 @@ tags: [STUDY]
 
 HEADER.PAYLOAD.SIGNATURE
 
-<br/>
-
-![스크린샷](https://user-images.githubusercontent.com/109974940/216749952-4ebb3e8c-c0a8-4d62-b304-57645fadbba0.png)
-
-<br/>
-
 - 헤더: 토큰 타입과 해싱 알고리즘
 - 페이로드: 실제로 전달하는 정보
 - 서명: 위변조를 방지하기 위한 값
+
+
+![스크린샷](https://user-images.githubusercontent.com/109974940/216749952-4ebb3e8c-c0a8-4d62-b304-57645fadbba0.png)
 
 <br/>
 <br/>
@@ -174,7 +171,7 @@ HEADER.PAYLOAD.SIGNATURE
 
 ---
 
-4.　서버에서는 다시 header에 실려온 토큰을 검증후 인증되면 응답을 해준다.
+4.　서버에서는 다시 header에 실려온 토큰을 검증후 인증되면 응답을 해준다.  
 　　(권한이 있는 사용자에게 리소스를 제공)
 
 <br/>
