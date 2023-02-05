@@ -95,6 +95,16 @@ reference type(참조 자료형)을 넘길 시에는
 <br/>
 <br/>
 
+## 📎 배열의 깊은 복사, 얕은 복사
+
+---
+
+### [ 🌐이 블로그의 다른 글🌐 /Java/ 깊은복사, 얕은복사](https://ggggraceful.github.io/posts/shallowCopy-deepCopy/)
+
+
+<br/>
+<br/>
+
 ---
 
 (참고)
