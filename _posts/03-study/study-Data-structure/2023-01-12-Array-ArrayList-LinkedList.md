@@ -509,7 +509,11 @@ import java.util.List;	// List.of()
 
 ---
 
+### [ 🌐이 블로그의 다른 글🌐 /Java/ 깊은복사, 얕은복사](https://ggggraceful.github.io/posts/shallowCopy-deepCopy/)
 
+
+<br/>
+<br/>
 
 ## 📎 Array / Array List / LinkedList 사용하면 좋을 데이터의 예시와 이유
 
