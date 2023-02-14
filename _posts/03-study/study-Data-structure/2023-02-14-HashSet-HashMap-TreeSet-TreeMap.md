@@ -166,7 +166,7 @@ NavigableSet<E> ascendingSet = descendingSet.descendingSet(); // 두번 호출
 |---|---------|------------------------------------------------------------------------------------|
 |NavigableSet<E>|	headSet(E toElement, boolean inclusive)| 주어진 객체보다 낮은 객체들을 NavigableSet으로 리턴. <br/> 주어진 객체 포함 여부는 두번째 매개값에 따라 달라짐.           |
 |NavigableSet<E>|tailSet(E fromElement, boolean inclusive)| 주어진 객체보다 높은 객체들을 NavigableSet으로 리턴.<br/>  주어진 객체 포함 여부는 두번째 매개값에 따라 달라진다.          |
-|NavigableSet<E>|subSet(E fromElement, boolean fromInclusive, E toElement, boolean toInclusive)| 시작과 끝으로 주어진 객체 사이의 객체들을 NavigableSet으로 리턴. <br/> 시작과 끝 객체 포함여부는 두번째, 네 번째 매개값에 따라 달라진다. |
+|NavigableSet<E>|subSet<br/>(E fromElement, boolean fromInclusive,<br/> E toElement, boolean toInclusive)| 시작과 끝으로 주어진 객체 사이의 객체들을 NavigableSet으로 리턴. <br/> 시작과 끝 객체 포함여부는 두번째, 네 번째 매개값에 따라 달라진다. |
 
 <br/>
 <br/>
