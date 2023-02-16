@@ -161,7 +161,7 @@ thread
 (참고)
 
 - [[OS] 프로세스와 스레드의 차이](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)
-- [🎀Process, Thread 차이가 뭐예요?](https://brunch.co.kr/@babosamo/100)
+- [🛸Process, Thread 차이가 뭐예요?](https://brunch.co.kr/@babosamo/100)
 - [프로세스 간 통신](https://ko.wikipedia.org/wiki/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4_%EA%B0%84_%ED%86%B5%EC%8B%A0)
 
 <br/>

@@ -1,5 +1,5 @@
 ---
-title: /Data structure/ 💚 HashSet, HashMap, TreeSet, TreeMap
+title: /Data structure/ 💬 HashSet, HashMap, TreeSet, TreeMap
 author: ggggraceful
 date: 2023-02-14
 categories: [03.STUDY, Data structure]
