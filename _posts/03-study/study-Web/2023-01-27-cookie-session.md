@@ -1,5 +1,5 @@
 ---
-title: /web/ 💚 쿠키, 세션, 캐시
+title: /web/ 💬 쿠키, 세션, 캐시
 author: ggggraceful
 date: 2023-01-27
 categories: [03.STUDY, Web]

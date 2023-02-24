@@ -1,5 +1,5 @@
 ---
-title: /Java/ 💚 JVM의 스택과 힙메모리 영역
+title: /Java/ 💬 JVM의 스택과 힙메모리 영역
 author: ggggraceful
 date: 2023-01-19
 categories: [03.STUDY, Java]

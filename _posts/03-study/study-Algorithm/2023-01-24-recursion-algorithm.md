@@ -1,5 +1,5 @@
 ---
-title: /Algorithm/ 💚 재귀 알고리즘
+title: /Algorithm/ 💬 재귀 알고리즘
 author: ggggraceful
 date: 2023-01-24
 categories: [03.STUDY, Algorithm]

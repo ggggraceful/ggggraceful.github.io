@@ -1,5 +1,5 @@
 ---
-title: /Algorithm/ 💚 정렬알고리즘
+title: /Algorithm/ 💬 정렬알고리즘
 author: ggggraceful
 date: 2023-02-03
 categories: [03.STUDY, Algorithm]
