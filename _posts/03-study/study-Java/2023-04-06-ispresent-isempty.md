@@ -1,5 +1,5 @@
 ---
-title: /Java/ isPresent(), isEmpty(), 
+title: /Java/ isPresent(), isEmpty()
 author: ggggraceful
 date: 2023-04-06
 categories: [03.STUDY, Java]
