@@ -1,5 +1,5 @@
 ---
-title: /Database/  💬 MySQl_Mysql 엔진 아키텍쳐
+title: /Database/💬 MySQl/Mysql 엔진 아키텍쳐
 author: ggggraceful
 date: 2023-03-17
 categories: [03.STUDY, Database]
