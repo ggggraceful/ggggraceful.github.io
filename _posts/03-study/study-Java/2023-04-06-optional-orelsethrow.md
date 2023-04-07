@@ -1,5 +1,5 @@
 ---
-title: /Java/ isPresent() -> orElseThrow() 바꾸기
+title: /Java/ isPresent()를 orElseThrow()로 바꾸기
 author: ggggraceful
 date: 2023-04-06
 categories: [03.STUDY, Java]
