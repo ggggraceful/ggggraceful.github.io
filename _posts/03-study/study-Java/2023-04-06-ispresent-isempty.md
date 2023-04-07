@@ -75,7 +75,7 @@ if (emailOptional.isEmpty())
 
 (참고)
 
-- [..](../../../..)
+- ..
 
 <br/>
 <br/>
