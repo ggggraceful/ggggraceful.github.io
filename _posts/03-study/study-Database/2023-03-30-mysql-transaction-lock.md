@@ -366,6 +366,9 @@ InnoDB 스토리지 엔진에 서는 이를 위해
 
 
 # 4 MySQL의 격리 수준
+
+dd
+
 # 4.1 READ UNCOMMITTED
 # 4.2 READ COMMITTED
 # 4.3 REPEATABLE READ
