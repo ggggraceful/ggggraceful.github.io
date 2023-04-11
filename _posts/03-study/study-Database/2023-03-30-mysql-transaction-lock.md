@@ -362,14 +362,215 @@ InnoDB 스토리지 엔진에 서는 이를 위해
 
 # 3.2 인덱스와 잠금
 
+---
+
+<br/>
+
+- InnoDB의 잠금은   
+  `레코드를 잠그는 것이 아니라`    
+  `인덱스를 잠그는 방식으로 처리`  
+  (변경해야 할 레코드를 찾기 위해 검색한 인덱스의 레코드를 모두 락을 걸어야 함)  
+
+<br/>
+<br/>
+
+## 예시
+
+```sql
+mysql> 
+ UPDATE employees SET hire_date=NOW() 
+                  WHERE first_name='Georgi' 
+                        AND last_name='Klassen';
+```
+
+<br/>
+
+employees 테이블에서   
+first_name='Georgi'이고   
+last_name='Klassen'인 사원의  
+입사 일자를 오늘로 변경하는 쿼리를 실행했을 경우
+
+<br/>
+
+➡️ first_name인 employee가 200명이 경우  
+'first_name='Georgi'인 200건의 레코드가 모두 잠기게 된다.  
+
+<br/>
+
+만약 조직의 규모가 커서 'first_name='Georgi'인 employee가 너무 많다면  
+각 클라이언트 간의 동시성이 상당히 떨어져서  
+한 세션에서 UPDATE 작업을 하는 중에는   
+다른 클라이언트는 그 테이블을 업데이트하지 못하고 기다려야 하는 상황이 발생할 수 있다.  
+
+<br/>
+<br/>
+
+![스크린샷 2023-04-07 오후 8 57 42](https://user-images.githubusercontent.com/109974940/230604958-c522c723-6a89-4557-b4f7-069317773bfa.png)
+
+<br/>
+
+만약 이 `테이블에 인덱스가 하나도 없다면`  
+`테이블을 풀 스캔하면서 UPDATE 작업을 하게된다.`   
+`이 과정에서 테이블에 있는 모든 레코드를 잠그게 된다.`  
+이것이 MySQL의 방식이며, MySQL의 InnoDB에서 인덱스 설계가 중요한 이유 또한 이 때문이다.
+
+<br/>
+
+{: .prompt-tip }
+> 인덱스가 있기 때문에 풀스캔하지 않고 UPDATE 할 수 있음
+
+<br/>
+<br/>
+
+
 # 3.3 레코드 수준의 잠금 확인 및 해제
 
+---
+
+<br/>
+
+테이블 잠금에서는 잠금의 대상이 테이블 자체이므로 쉽게 문제의 원인이 발견되고 해결될 수 있다.  
+
+하지만 InnoDB 스토리지 엔진을 사용하는 테이블의 레코드 수준 잠금은  
+테이블의 레코드 각각에 잠금이 걸리므로 그 레코드가 자주 사용되지 않는다면  
+오랜 시간 동안 잠겨진 상태로 남아 있어도 잘 발견되지 않는다. 
+
+MySQL 5.1부터는 레코드 잠금과 잠금 대기에 대한 조회가 가능해져    
+쿼리 하나만 실행해 보면 잠금과 잠금 대기를 바로 확인 가능하다.
+
+<br/>
+
+> 1. 기존의 mysql
+> : 각 트랜잭션이 어떤 잠금을 기다리고 있는지,   
+>   기다리고 있는 잠금을 어떤 트랜잭션이 가지고 있는지를  
+>   쉽게 메타 정보를 통해 조회 가능
+> 
+> 2. MySQL 5.1부터
+> : information_schema라는 DB에  
+>   INNODB_TRX라는 테이블과 INNODB_LOCKS, INNODB_LOCK_WAITS라는 테이블을 통해 
+>   확인이 가능
+> 
+> 3. MySQL 8.0 버전부터
+> : information_schema의 정보들은 조금씩 제거(Deprecated)되고 있으며, 
+>   그 대신 performance_schema의 data_locks와 data_lock_waits 테이블로 대체
+
+<br/>
+
+##  performance_schema의 테이블을 이용해 잠금과 잠금 대기 순서를 확인하는 방법
+
+---
+
+<br/>
+
+(예시)
+
+```sql
+mysql> SHOW PROCESSLIST;
++----+--------+----------+-----------------------------------------------------------+
+| Id | Time | State | Info |
++----+--------+----------+-----------------------------------------------------------+
+| 17 | 607 | | NULL |
+| 18 | 22 | updating | UPDATE employees SET birth_date=NOW() WHERE emp_no=100001 |
+| 19 | 21 | updating | UPDATE employees SET birth_date=NOW() WHERE emp_no=100001 |
++----+--------+----------+-----------------------------------------------------------+
+```
+
+<br/>
+
+- 17번 스레드
+  - 지금 아무것도 하지 않고 있음
+  - 트랜잭션을 시작하고 UPDATE 명령이 실행 완료된 상태
+  - But 아직 17번 스레드는 COMMIT을 실행하지는 않은 상태로
+    업데이트한 레코드의 잠금을 그대로 가지고 있는 상태
+  
+- 18번 스레드가 그다음으로 UPDATE 명령을 실행
+  - 잠금 대기로 인해 아직 UPDATE 명령을 실행 중인 것으로 표시
+
+- 19번 스레드가 그다음으로 UPDATE 명령을 실행
+  - 잠금 대기로 인해 아직 UPDATE 명령을 실행 중인 것으로 표시
+
+<br/>
+<br/>
+
+(예시)
+
+```sql
+mysql> SELECT
+ r.trx_id waiting_trx_id,
+ r.trx_mysql_thread_id waiting_thread,
+ r.trx_query waiting_query,
+ b.trx_id blocking_trx_id,
+ b.trx_mysql_thread_id blocking_thread,
+ b.trx_query blocking_query
+ FROM performance_schema.data_lock_waits w
+ INNER JOIN information_schema.innodb_trx b
+ ON b.trx_id = w.blocking_engine_transaction_id
+ INNER JOIN information_schema.innodb_trx r
+ ON r.trx_id = w.requesting_engine_transaction_id;
++---------+---------+-------------------+----------+----------+-------------------+
+| waiting | waiting | waiting_query | blocking | blocking | blocking_query |
+| _trx_id | _thread | | _trx_id | _thread | |
++---------+---------+-------------------+----------+----------+-------------------+
+| 11990 | 19 | UPDATE employees..| 11989 | 18 | UPDATE employees..|
+| 11990 | 19 | UPDATE employees..| 11984 | 17 | NULL |
+| 11989 | 18 | UPDATE employees..| 11984 | 17 | NULL |
++---------+---------+-------------------+----------+----------+-------------------+
+```
+<br/>
+
+17번 스레드가  
+  가지고 있는 잠금을 해제하고,   
+18번 스레드가  
+  그 잠금을 획득하고,  
+  UPDATE를 완료한 후,  
+  잠금을 풀어야  
+19번 스레드가  
+  UPDATE를 실행할 수 있음을 의미  
+
+<br/>
+
+{: .prompt-info }
+> - waiting _thread  
+>  :현재 어떤 스레드를 기다리고 있는지 알려줌  
+  
+<br/>
+<br/>
+
+17번 스레드가 어떤 잠금을 가지고 있는지 더 상세히 확인하고 싶다면   
+다음과 같이 performance_schema의   
+data_locks 테이블이 가진 칼럼을 모두 살펴보면 된다.  
+
+<br/>
+
+```sql
+ LOCK_TYPE: TABLE
+ LOCK_MODE: IX
+```
+
+해당 테이블에 대해 IX 잠금(Intentional Exclusive)을 가지고 있음
+
+<br/>
+
+```sql
+ LOCK_TYPE: RECORD
+ LOCK_MODE: X,REC_NOT_GAP
+```
+
+- 해당 테이블의 특정 레코드에 대해서 쓰기 잠금을 가지고 있음  
+- REC_NOT_GAP 표시가 있으므로   
+  레코드 잠금은 갭이 포함되지 않은 순수 레코드에 대해서만 잠금을 가지고 있음
+
+<br/>
+
+강제종료 명령어
+
+```sql
+mysql> 
+KILL 17;
+```
+<br/>
 
 # 4 MySQL의 격리 수준
-
-dd
-dd
-
 # 4.1 READ UNCOMMITTED
 # 4.2 READ COMMITTED
 # 4.3 REPEATABLE READ
@@ -379,7 +580,7 @@ dd
 
 (참고)
 
-- [..](..)
+- [2. 트랜잭션과 잠금](https://velog.io/@sixhustle/mysql-transaction-isolation)
 
 <br/>
 <br/>
