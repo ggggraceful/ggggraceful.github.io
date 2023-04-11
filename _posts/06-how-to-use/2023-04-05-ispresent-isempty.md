@@ -1,5 +1,5 @@
 ---
-title: ✨TIL - isPresent(), isEmpty()
+title: 🔍 isPresent(), isEmpty()
 author: ggggraceful
 date: 2023-04-05
 categories: [06.HOW TO USE]

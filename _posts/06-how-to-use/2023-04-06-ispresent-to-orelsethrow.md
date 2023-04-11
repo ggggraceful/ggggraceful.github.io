@@ -1,5 +1,5 @@
 ---
-title: ✨TIL - isPresent()를 orElseThrow()로 바꾸기
+title: 🔍 isPresent()를 orElseThrow()로 바꾸기
 author: ggggraceful
 date: 2023-04-06
 categories: [06.HOW TO USE]

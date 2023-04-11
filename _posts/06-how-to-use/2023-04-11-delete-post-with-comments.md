@@ -1,5 +1,5 @@
 ---
-title: ✨TIL - 게시물 삭제시 댓글도 함께 삭제 구현
+title: 🔍 게시물 삭제시 댓글도 함께 삭제 구현
 author: ggggraceful
 date: 2023-04-11
 categories: [06.HOW TO USE]
