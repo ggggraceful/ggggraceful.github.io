@@ -3,7 +3,7 @@ title: /Java/ 클래스, 객체, 인스턴스
 author: ggggraceful
 date: 2023-01-23
 categories: [03.STUDY, Java]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

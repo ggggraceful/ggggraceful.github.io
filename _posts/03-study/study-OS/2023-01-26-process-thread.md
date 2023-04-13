@@ -3,7 +3,7 @@ title: /OS/ 프로세스, 스레드
 author: ggggraceful
 date: 2023-01-26
 categories: [03.STUDY, OS]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

@@ -3,7 +3,7 @@ title: /JPA/ 즉시로딩, 지연로딩
 author: ggggraceful
 date: 2023-01-23
 categories: [03.STUDY, JPA]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

@@ -3,7 +3,7 @@ title: /Network/ TCP 3 way handshake
 author: ggggraceful
 date: 2023-01-26
 categories: [03.STUDY, Network]
-tags: [STUDY]
+tags: [study, network]
 ---
 
 <br/>

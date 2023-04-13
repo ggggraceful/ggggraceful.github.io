@@ -3,7 +3,7 @@ title: /Java/ Annotation
 author: ggggraceful
 date: 2023-01-13
 categories: [03.STUDY, Java]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

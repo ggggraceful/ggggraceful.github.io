@@ -3,7 +3,7 @@ title: /etc/ 동기&비동기, 블록킹&논블록킹
 author: ggggraceful
 date: 2023-01-17
 categories: [03.STUDY, etc]
-tags: [STUDY]
+tags: [study, etc]
 ---
 
 <br/>

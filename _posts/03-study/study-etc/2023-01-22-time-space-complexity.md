@@ -3,7 +3,7 @@ title: /etc/ 시간복잡도, 공간복잡도 (+ 빅O 표기법)
 author: ggggraceful
 date: 2023-01-22
 categories: [03.STUDY, etc]
-tags: [STUDY]
+tags: [study, etc]
 ---
 
 <br/>

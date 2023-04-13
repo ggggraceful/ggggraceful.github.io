@@ -3,7 +3,7 @@ title: 📒 알고리즘 제어문
 author: ggggraceful
 date: 2023-01-25
 categories: [04.AlGORITHM]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

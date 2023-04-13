@@ -3,7 +3,7 @@ title: /etc/ 파이썬으로 네이버뉴스 크롤링(+엑셀에 넣기)
 author: ggggraceful
 date: 2023-01-29
 categories: [03.STUDY, etc]
-tags: [STUDY]
+tags: [study, etc]
 ---
 
 <br/>

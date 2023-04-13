@@ -3,7 +3,7 @@ title: /etc/ Docker 기초 이론
 author: ggggraceful
 date: 2023-04-05
 categories: [03.STUDY, etc]
-tags: [STUDY]
+tags: [study, etc]
 ---
 
 <br/>
@@ -20,7 +20,7 @@ Docker image를 받은 다음 실행하는 구조
 ![사진](https://user-images.githubusercontent.com/109974940/230051716-c8f95cc3-edfc-4248-ac3b-775c20c87457.png)
 
 Docker Registry
-Docker image를 쉽게 공유하기 위해서 Docker Registry를 사용한다.
+Docker image를 쉽게 공유하기 위해서 Docker Registry를 사용한다.  
 Registry에 image를 등록하고,  
 Registry로부터 image를 다운받는 방식으로 사용  
 
@@ -73,11 +73,48 @@ Binary, Library를 다운받아
 <br/>
 <br/>
 
+애플리케이션 실행
+```docker
+docker run -d -p 80:80 docker/getting-started
+```
+
+도커 option 목록
+```docker
+docker run --help
+```
+
+도커 컨테이너 상태 확인
+```docker
+docker ps
+```
+
+실행중인 컨테이너에서 명령어 실행하기
+```docker
+docker exec [options] {container_id|container_name} [command]
+```
+
+실행중인 컨테이너의 내부에 있는 파일 목록과 폴더구조 확인
+```docke 
+docker exec {container_id|container_name} ls 
+```
+
+실행중인 컨테이너 내부에서 쉘 크립트 실행
+```docker
+docker exec {container_id|container_name} ls 
+```
+
+도커 컨테이너 삭제하기
+```docker
+docker rm {container_id}
+```
+
+- [Use the Docker command line](https://docs.docker.com/engine/reference/commandline/cli/)
+
+      
 ---
 
 (참고)
 
-- [..](..)
 
 <br/>
 <br/>

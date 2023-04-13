@@ -3,7 +3,7 @@ title: /Java/ call by value, call by reference
 author: ggggraceful
 date: 2023-01-10
 categories: [03.STUDY, Java]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

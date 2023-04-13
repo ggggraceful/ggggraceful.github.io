@@ -3,7 +3,7 @@ title: /Spring/ Spring Security, JWT
 author: ggggraceful
 date: 2023-02-03
 categories: [03.STUDY, Spring]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

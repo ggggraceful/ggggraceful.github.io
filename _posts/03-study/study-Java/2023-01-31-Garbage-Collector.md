@@ -3,7 +3,7 @@ title: /Java/ 가비지컬렉터(GC)
 author: ggggraceful
 date: 2023-01-31
 categories: [03.STUDY, Java]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

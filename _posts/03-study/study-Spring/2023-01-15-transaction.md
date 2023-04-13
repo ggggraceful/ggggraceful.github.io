@@ -3,7 +3,7 @@ title: /Spring/ Transaction
 author: ggggraceful
 date: 2023-01-15
 categories: [03.STUDY, Spring]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

@@ -3,7 +3,7 @@ title: /JPA/ JPA의 더티체킹
 author: ggggraceful
 date: 2023-01-15
 categories: [03.STUDY, JPA]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>

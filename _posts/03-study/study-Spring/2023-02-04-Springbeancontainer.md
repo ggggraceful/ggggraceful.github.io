@@ -3,7 +3,7 @@ title: /Spring/ Spring bean container
 author: ggggraceful
 date: 2023-02-04
 categories: [03.STUDY, Spring]
-tags: [STUDY]
+tags: [study]
 ---
 
 <br/>
