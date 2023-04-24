@@ -9,8 +9,11 @@ tags: [how to use]
 <br/>
 <br/>
 
-Swagger, Rest Docs
+{: .prompt-info }
+> - Swagger  
+> - Rest Docs  
 
+<br/>
 <br/>
 
 Swagger 접속 URL
@@ -55,6 +58,7 @@ public class SwaggerConfig {
 }
 ```
 
+<br/>
 <br/>
 
 SecurityConfig
@@ -104,7 +108,7 @@ public class SecurityConfig {
 
 ```
 
-
+<br/>
 <br/>
 
 MemberController
@@ -120,6 +124,7 @@ public class MemberController {
 }
 ```
 
+<br/>
 <br/>
 
 LoginReqDto
@@ -141,6 +146,7 @@ public class LoginReqDto {
 
 ```
 
+<br/>
 <br/>
 
 ![스크린샷 2023-04-24 오후 10 07 07](https://user-images.githubusercontent.com/109974940/234005346-0eb86f70-de08-4a77-8f10-84b73f9901b4.png)
