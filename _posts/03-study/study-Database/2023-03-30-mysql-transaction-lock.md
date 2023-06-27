@@ -3,7 +3,7 @@ title: /Database/💬 MySQl/ 트랜잭션과 잠금
 author: ggggraceful
 date: 2023-03-30
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 <br/>

@@ -3,7 +3,7 @@ title: /Database/ HTTP, HTTPS
 author: ggggraceful
 date: 2023-01-16
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 <br/>

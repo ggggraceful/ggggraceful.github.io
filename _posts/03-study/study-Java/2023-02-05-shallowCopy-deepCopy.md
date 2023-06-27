@@ -3,7 +3,7 @@ title: /Java/ 깊은복사, 얕은복사
 author: ggggraceful
 date: 2023-02-05
 categories: [03.STUDY, Java]
-tags: [study]
+tags: [study, java]
 ---
 
 <br/>

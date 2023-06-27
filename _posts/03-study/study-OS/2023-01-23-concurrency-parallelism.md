@@ -3,7 +3,7 @@ title: /OS/ 동시성, 병렬성
 author: ggggraceful
 date: 2023-01-23
 categories: [03.STUDY, OS]
-tags: [study]
+tags: [study, os]
 ---
 
 <br/>

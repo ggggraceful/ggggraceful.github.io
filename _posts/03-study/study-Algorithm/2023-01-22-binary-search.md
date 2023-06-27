@@ -3,7 +3,7 @@ title: /Algorithm/ 이분탐색, 이분탐색의 시간복잡도
 author: ggggraceful
 date: 2023-01-22
 categories: [03.STUDY, Algorithm]
-tags: [STUDY]
+tags: [study, algorithm]
 ---
 
 <br/>

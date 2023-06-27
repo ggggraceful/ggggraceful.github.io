@@ -3,7 +3,7 @@ title: /Data structure/ 💬 Priority Queue, Heap
 author: ggggraceful
 date: 2023-03-02
 categories: [03.STUDY, Data structure]
-tags: [STUDY]
+tags: [study, data structure]
 ---
 
 <br/>

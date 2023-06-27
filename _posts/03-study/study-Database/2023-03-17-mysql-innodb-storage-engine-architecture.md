@@ -3,7 +3,7 @@ title: /Database/💬 MySQl/ InnoDB 스토리지 엔 아키텍쳐
 author: ggggraceful
 date: 2023-03-17
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 <br/>

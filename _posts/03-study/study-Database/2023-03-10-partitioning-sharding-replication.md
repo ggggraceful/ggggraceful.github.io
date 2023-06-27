@@ -3,7 +3,7 @@ title: /Database/ 💬 파티셔닝, 샤딩, 리프�
 author: ggggraceful
 date: 2023-03-10
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 

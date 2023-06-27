@@ -2,8 +2,8 @@
 title: 📒 알고리즘 제어문
 author: ggggraceful
 date: 2023-01-25
-categories: [04.AlGORITHM]
-tags: [study]
+categories: [04.ALGORITHM, 알고리즘 문법]
+tags: [algorithm, 알고리즘 문법]
 ---
 
 <br/>

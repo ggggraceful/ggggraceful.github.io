@@ -3,7 +3,7 @@ title: /Data structure/ Array, LinkedList
 author: ggggraceful
 date: 2023-01-12
 categories: [03.STUDY, Data structure]
-tags: [STUDY]
+tags: [study, data structure]
 ---
 
 <br/>

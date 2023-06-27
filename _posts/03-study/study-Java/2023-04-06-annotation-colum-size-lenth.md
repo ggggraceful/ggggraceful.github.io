@@ -3,7 +3,7 @@ title: /Java/ Entity에서 필드나 컬럼의 길이제한 해주는 어노테�
 author: ggggraceful
 date: 2023-04-06
 categories: [03.STUDY, Java]
-tags: [study]
+tags: [study, java]
 ---
 
 <br/>

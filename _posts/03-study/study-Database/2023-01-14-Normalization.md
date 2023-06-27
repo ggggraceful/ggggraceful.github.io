@@ -3,7 +3,7 @@ title: /Database/ 정규화
 author: ggggraceful
 date: 2023-01-14
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 <br/>

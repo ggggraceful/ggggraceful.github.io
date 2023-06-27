@@ -3,7 +3,7 @@ title: /Database/ SQL join
 author: ggggraceful
 date: 2023-04-12
 categories: [03.STUDY, Database]
-tags: [STUDY]
+tags: [study, database]
 ---
 
 <br/>
