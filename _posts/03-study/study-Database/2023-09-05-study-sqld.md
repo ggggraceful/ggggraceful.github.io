@@ -1,5 +1,5 @@
 ---
-title: sqld 준비(1)
+title: sqld 준비 1
 author: ggggraceful
 date: 2023-09-04
 categories: [03.STUDY, Database]
