@@ -1,6 +1,5 @@
 ---
 title: /Database/ MAX+1과 시퀀스(Sequence) NEXTVAL 
-
 author: ggggraceful
 date: 2023-06-28
 categories: [03.STUDY, Database]
