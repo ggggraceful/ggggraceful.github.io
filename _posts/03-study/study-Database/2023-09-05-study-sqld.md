@@ -1,7 +1,7 @@
 ---
 title: sqld 준비 1
 author: ggggraceful
-date: 2023-09-04
+date: 2023-09-05
 categories: [03.STUDY, Database]
 tags: [study, database]
 ---
