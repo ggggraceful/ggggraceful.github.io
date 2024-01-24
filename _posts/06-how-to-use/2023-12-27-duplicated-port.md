@@ -2,8 +2,8 @@
 title: 🔍 포트 죽이기
 author: ggggraceful
 date: 2023-12-27
-categories: [03.STUDY, etc]
-tags: [STUDY]
+categories: [06.HOW TO USE]
+tags: [how to use]
 ---
 
 <br/>
