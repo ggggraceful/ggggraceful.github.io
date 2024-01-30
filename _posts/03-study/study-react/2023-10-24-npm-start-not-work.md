@@ -3,7 +3,7 @@ title: npm start 작동하지 않는 문제
 author: ggggraceful
 date: 2023-10-24
 categories: [03.STUDY, react]
-tags: [STUDY, react]
+tags: [study, react]
 ---
 
 <br/>

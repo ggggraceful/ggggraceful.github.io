@@ -3,7 +3,7 @@ title: 💬리액트란
 author: ggggraceful
 date: 2023-09-18
 categories: [03.STUDY, react]
-tags: [STUDY, react]
+tags: [study, react]
 ---
 
 <br/>
