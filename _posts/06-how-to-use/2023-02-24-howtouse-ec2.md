@@ -85,7 +85,6 @@ RSA 유형으로 선택후 생성하고, 다운받아 원하는 폴더 안에 �
 
 다음과같이 인바운드 규칙 편집 후 '규칙저장'
 
-[//]: # (![]&#40;https://velog.velcdn.com/images/ggggraceful/post/c1d35304-04ee-41c5-9947-36f6fa56b0ea/image.png&#41;)
 ![image](https://github.com/ggggraceful/ggggraceful/assets/109974940/637e44e6-3efd-4103-88f3-5ce69178e932)
 
 이 설정은 내 아이피에서만 접속 가능하게 하는 것이고,  
@@ -177,7 +176,8 @@ ec2 퍼블릭 IPv4 주소는
 
 퍼블릭 IPv4 주소를 복사해 해당 부분에 넣어주면 된다.
 
-![](https://velog.velcdn.com/images/ggggraceful/post/3742562a-36d1-4c65-b895-584d022fd375/image.png)
+![image](https://github.com/ggggraceful/ggggraceful/assets/109974940/4a78f761-0005-47e6-b432-562bf6acf760)
+
 
 <br/>
 <br/>
