@@ -85,7 +85,8 @@ RSA 유형으로 선택후 생성하고, 다운받아 원하는 폴더 안에 �
 
 다음과같이 인바운드 규칙 편집 후 '규칙저장'
 
-![](https://velog.velcdn.com/images/ggggraceful/post/c1d35304-04ee-41c5-9947-36f6fa56b0ea/image.png)
+[//]: # (![]&#40;https://velog.velcdn.com/images/ggggraceful/post/c1d35304-04ee-41c5-9947-36f6fa56b0ea/image.png&#41;)
+![image](https://github.com/ggggraceful/ggggraceful/assets/109974940/637e44e6-3efd-4103-88f3-5ce69178e932)
 
 이 설정은 내 아이피에서만 접속 가능하게 하는 것이고,  
 다른 팀원들의 아이피도 추가하게 된다면 이 서버에 접속 가능하게 될 것이다.  
