@@ -1,9 +1,9 @@
 ---
-title: /etc/ Docker 기초 이론
+title: /docker/ Docker 기초 이론
 author: ggggraceful
 date: 2023-04-05
-categories: [03.STUDY, etc]
-tags: [study, etc]
+categories: [03.STUDY, docker]
+tags: [study, docker]
 ---
 
 <br/>
